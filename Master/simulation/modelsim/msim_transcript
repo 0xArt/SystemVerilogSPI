@@ -1,0 +1,260 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do SpiMaster_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Art/Desktop/SystemVerilogSPI/Master {C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:48 on Apr 14,2019
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Art/Desktop/SystemVerilogSPI/Master" C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv 
+# -- Compiling module spi_master
+# 
+# Top level modules:
+# 	spi_master
+# End time: 13:42:48 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:56 on Apr 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv 
+# -- Compiling module spi_master
+# 
+# Top level modules:
+# 	spi_master
+# End time: 13:42:56 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:56 on Apr 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv 
+# -- Compiling module spi_master_testbench
+# 
+# Top level modules:
+# 	spi_master_testbench
+# End time: 13:42:56 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.spi_master_testbench
+# vsim -gui -l msim_transcript work.spi_master_testbench 
+# Start time: 13:43:02 on Apr 14,2019
+# Loading sv_std.std
+# Loading work.spi_master_testbench
+# Loading work.spi_master
+add wave -position insertpoint sim:/spi_master_testbench/spi_master_inst/*
+run
+run
+run
+run
+run
+vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:44:28 on Apr 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv 
+# -- Compiling module spi_master
+# 
+# Top level modules:
+# 	spi_master
+# End time: 13:44:28 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:44:28 on Apr 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv 
+# -- Compiling module spi_master_testbench
+# 
+# Top level modules:
+# 	spi_master_testbench
+# End time: 13:44:28 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.spi_master_testbench
+# End time: 13:44:34 on Apr 14,2019, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript work.spi_master_testbench 
+# Start time: 13:44:34 on Apr 14,2019
+# Loading sv_std.std
+# Loading work.spi_master_testbench
+# Loading work.spi_master
+add wave -position insertpoint sim:/spi_master_testbench/spi_master_inst/*
+run
+run
+run
+run
+run
+run
+vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:39 on Apr 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv 
+# -- Compiling module spi_master
+# 
+# Top level modules:
+# 	spi_master
+# End time: 13:46:39 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:39 on Apr 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv 
+# -- Compiling module spi_master_testbench
+# 
+# Top level modules:
+# 	spi_master_testbench
+# End time: 13:46:39 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:50 on Apr 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv 
+# -- Compiling module spi_master
+# 
+# Top level modules:
+# 	spi_master
+# End time: 13:46:50 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:50 on Apr 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv 
+# -- Compiling module spi_master_testbench
+# 
+# Top level modules:
+# 	spi_master_testbench
+# End time: 13:46:50 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.spi_master_testbench
+# End time: 13:46:57 on Apr 14,2019, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript work.spi_master_testbench 
+# Start time: 13:46:58 on Apr 14,2019
+# Loading sv_std.std
+# Loading work.spi_master_testbench
+# Loading work.spi_master
+add wave -position insertpoint sim:/spi_master_testbench/spi_master_inst/*
+run
+run
+run
+run
+run
+run
+vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:49:46 on Apr 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv 
+# -- Compiling module spi_master
+# 
+# Top level modules:
+# 	spi_master
+# End time: 13:49:46 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:49:46 on Apr 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv 
+# -- Compiling module spi_master_testbench
+# 
+# Top level modules:
+# 	spi_master_testbench
+# End time: 13:49:46 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.spi_master_testbench
+# End time: 13:49:51 on Apr 14,2019, Elapsed time: 0:02:53
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript work.spi_master_testbench 
+# Start time: 13:49:51 on Apr 14,2019
+# Loading sv_std.std
+# Loading work.spi_master_testbench
+# Loading work.spi_master
+add wave -position insertpoint sim:/spi_master_testbench/spi_master_inst/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Incorrect byte recieved
+# ** Note: $stop    : C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv(38)
+#    Time: 1230 ps  Iteration: 2  Instance: /spi_master_testbench
+# Break in Module spi_master_testbench at C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv line 38
+run
+add wave -position insertpoint  \
+sim:/spi_master_testbench/recievedByte
+run
+# Incorrect byte recieved
+# ** Note: $stop    : C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv(38)
+#    Time: 1390 ps  Iteration: 2  Instance: /spi_master_testbench
+# Break in Module spi_master_testbench at C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv line 38
+restart
+run
+run
+run
+vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:54:27 on Apr 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master.sv 
+# -- Compiling module spi_master
+# 
+# Top level modules:
+# 	spi_master
+# End time: 13:54:27 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:54:27 on Apr 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv 
+# -- Compiling module spi_master_testbench
+# 
+# Top level modules:
+# 	spi_master_testbench
+# End time: 13:54:27 on Apr 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.spi_master_testbench
+# End time: 13:54:36 on Apr 14,2019, Elapsed time: 0:04:45
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript work.spi_master_testbench 
+# Start time: 13:54:36 on Apr 14,2019
+# Loading sv_std.std
+# Loading work.spi_master_testbench
+# Loading work.spi_master
+add wave -position insertpoint sim:/spi_master_testbench/spi_master_inst/*
+add wave -position insertpoint  \
+sim:/spi_master_testbench/recievedByte
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Correct byte recieved
+# ** Note: $stop    : C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv(35)
+#    Time: 1390 ps  Iteration: 2  Instance: /spi_master_testbench
+# Break in Module spi_master_testbench at C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv line 35
+run
+run
+# Correct byte recieved
+# ** Note: $stop    : C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv(35)
+#    Time: 1550 ps  Iteration: 2  Instance: /spi_master_testbench
+# Break in Module spi_master_testbench at C:/Users/Art/Desktop/SystemVerilogSPI/Master/spi_master_testbench.sv line 35
+# End time: 15:05:32 on Apr 15,2019, Elapsed time: 25:10:56
+# Errors: 0, Warnings: 0

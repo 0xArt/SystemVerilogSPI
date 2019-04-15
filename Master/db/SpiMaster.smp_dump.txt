@@ -1,0 +1,7 @@
+
+State Machine - |spi_master|state
+Name state.DELAY state.SEND_BIT state.SS_ON state.IDLE 
+state.IDLE 0 0 0 0 
+state.SS_ON 0 0 1 1 
+state.SEND_BIT 0 1 0 1 
+state.DELAY 1 0 0 1 

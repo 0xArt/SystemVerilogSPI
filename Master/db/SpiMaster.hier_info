@@ -1,0 +1,44 @@
+|spi_master
+clk => clockCounter[0].CLK
+clk => clockCounter[1].CLK
+clk => clockCounter[2].CLK
+clk => clockCounter[3].CLK
+clk => clockCounter[4].CLK
+clk => clockCounter[5].CLK
+clk => clockCounter[6].CLK
+clk => clockCounter[7].CLK
+clk => SCK~reg0.CLK
+clk => delayCounter[0].CLK
+clk => delayCounter[1].CLK
+clk => delayCounter[2].CLK
+clk => delayCounter[3].CLK
+clk => delayCounter[4].CLK
+clk => delayCounter[5].CLK
+clk => delayCounter[6].CLK
+clk => delayCounter[7].CLK
+clk => delay[0].CLK
+clk => delay[1].CLK
+clk => delay[2].CLK
+clk => delay[3].CLK
+clk => delay[4].CLK
+clk => delay[5].CLK
+clk => delay[6].CLK
+clk => delay[7].CLK
+clk => enableClock.CLK
+clk => MOSI~reg0.CLK
+clk => bitCounter[0].CLK
+clk => bitCounter[1].CLK
+clk => bitCounter[2].CLK
+clk => bitCounter[3].CLK
+clk => bitCounter[4].CLK
+clk => bitCounter[5].CLK
+clk => bitCounter[6].CLK
+clk => bitCounter[7].CLK
+clk => SS~reg0.CLK
+clk => state~5.DATAIN
+MISO => ~NO_FANOUT~
+MOSI << MOSI~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SS << SS~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SCK << SCK~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
